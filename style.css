@@ -1,0 +1,107 @@
+.info,header,.gallery,body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin:0px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    width: 100vw;
+    background-image: url("images/pnb118.jpg");
+}
+
+header{
+    width:100%;
+    height:200px;
+    padding:20px;
+    background:none;
+}
+
+.schedule,.gallery,.info,header>*,nav{
+    background:#eeeeee66;
+    padding:10px;
+    border-radius:1rem;
+    backdrop-filter: blur(4px);
+    margin:10px;
+    color:#ddd;
+}
+table{
+    color:#333;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    transition:.3s ease;
+}
+
+nav a:hover{
+    color:#dde04c;
+}
+
+.container {
+    padding: 2em;
+}
+
+.schedule, .gallery, .contact {
+    margin-bottom: 2em;
+}
+
+table,tr,th{
+    background:none;
+    margin:0px;
+    padding:10px;
+}
+th{
+    padding:10px;
+    border:2px solid #333;
+}
+
+.gallery img {
+    margin: 0.5em;
+    border-radius:10px;
+    height:200px;
+}
+
+
+.contact{
+    background:#eeeeee55;
+    padding:10px;
+    backdrop-filter:blur(8px);
+    border-radius:10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+img{
+    transition: .3s ease;
+}
+img:hover{
+    transform: scale(1.05);
+}
+input,textarea,button{
+    background:None;
+    border:2px solid #eee;
+    border-radius: 10px;
+}
+.info{
+    font-size:20px;
+    padding:20px;
+}
